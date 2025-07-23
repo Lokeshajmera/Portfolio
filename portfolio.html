@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh's Creative Portfolio</title>
+    <link rel="stylesheet" href="style10.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎨</span>
+                <span class="logo-text">Lokesh</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#sketches" class="nav-link">Sketches</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Lokesh</span>
+                        <span class="wave">👋</span>
+                    </h1>
+                    <p class="hero-subtitle" id="typewriter"></p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Let's Connect
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-card">
+                            <img src="IMG_20250128_160858090_HDR.jpg" alt="Lokesh Photo" class="profile-photo">
+                        </div>
+
+
+                        <div class="floating-icons">
+                            <i class="fab fa-react floating-icon"></i>
+                            <i class="fab fa-javascript floating-icon"></i>
+                            <i class="fas fa-paint-brush floating-icon"></i>
+                            <i class="fab fa-html5 floating-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Crafting digital experiences with passion and precision</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>My Journey</h3>
+                        <p>As a second-year engineering student, I’m building a solid foundation in web development. I love bringing ideas to life through creative webpage designs using HTML and CSS.</p>
+                        <p>With basic knowledge of JavaScript and Python, I’m exploring how code enhances interactivity and function on the web.</p>
+                        <p>In my free time, I sketch UI concepts and explore design trends, aiming to grow as a full-stack developer in the future.</p>
+                        When I'm not coding, you'll find me sketching new ideas, exploring the latest design trends, and constantly pushing the boundaries of what's possible in the digital realm.</p>
+                    </div>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-number" data-target="4-5">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="stat-number" data-target="30-40+">0</div>
+                        <div class="stat-label">Creative Ideas</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies I work with and love</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="Frontend Development">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar-fill" data-percent="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Modern Frameworks">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <p>Component-based UI Development</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar-fill" data-percent="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Backend Development">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar-fill" data-percent="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Creative Design">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>UI/UX & Visual Arts</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar-fill" data-percent="95"></div>
+                    </div>
+                </div>
+                <!-- <div class="skill-card" data-skill="Database Management">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database</h3>
+                    <p>MongoDB, PostgreSQL</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar-fill" data-percent="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Version Control">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <p>Version Control & Collaboration</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar-fill" data-percent="88"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-description" id="skillDescription">
+                <p>Hover over a skill to learn more about my expertise</p>
+            </div> -->
+                <div class="skill-card" data-skill="Python Programming">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Basics: Scripting, Automation</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar-fill" data-percent="60"></div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work and creative solutions</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Lokeshajmera/3D-Rocket_UI" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Lokeshajmera/3D-Rocket_UI" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <i class="fas fa-shopping-cart project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>3D-Rocket-UI</h3>
+                        <p>A real-time interactive 3D Rocket Launch Simulation UI built with Three.js, featuring joystick control, orbit view, live telemetry graphs, mission timer, stage indicators, and sound effects.</p>
+                        <div class="project-tags">
+                 <span>Three.js</span>
+                        <span>JavaScript</span>
+                        <span>Chart.js</span>
+                        <span>HTML/CSS</span>
+                        <span>Blender (for 3D model)</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Lokeshajmera/Digital-Receipt-Generator" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Lokeshajmera/Digital-Receipt-Generator" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <i class="fas fa-tasks project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Digital Receipt Generator</h3>
+                        <p>A professional web-based Digital Receipt Generator that allows businesses to create, preview, download (PDF), print, and email GST-compliant receipts with dynamic item lists, tax, and discount calculations .</p>
+                        <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>HTML/CSS</span>
+                                <span>EmailJS</span>
+                                <span>Responsive UI</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <i class="fas fa-chart-line project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio</h3>
+                        <p>A modern, responsive personal portfolio website featuring smooth scroll animations, project showcases, skill bars, and contact form — built using HTML, CSS, and JavaScript with animated UI and mobile-first design..</p>
+                        <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsive Design</span>
+                                <span>Scroll Animations</span>
+                                <span>Mobile Navigation</span>
+                                <span>Portfolio Showcase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sketches Section -->
+    <section id="sketches" class="sketches">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Creative Sketches</h2>
+                <p class="section-subtitle">Pencil sketches that translate raw ideas into powerful visuals—laying the artistic foundation for everything I build digitally.</p>
+            </div>
+            <div class="sketches-grid">
+                <div class="sketch-card">
+                    <div class="sketch-image">
+                        <img src="krishna.jpeg" alt="Sketches" loading="lazy">
+
+                        <div class="sketch-overlay">
+                            <div class="sketch-info">
+                                <i class="fas fa-eye"></i>
+                                <span>View Details</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sketch-content">
+                        <h3>Lord Krishna</h3>
+                        <p>A soulful pencil sketch of Lord Krishna, capturing divine serenity with expressive eyes, intricate ornaments, and the iconic flute.</p>
+                        <div class="sketch-meta">
+                            <span class="sketch-date">
+                                <i class="fas fa-calendar"></i>
+                                Dec 2023
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sketch-card">
+                    <div class="sketch-image">
+                        <img src="shivaji_maharaj.jpeg" alt="Dashboard Layout Concept" loading="lazy">
+                        <div class="sketch-overlay">
+                            <div class="sketch-info">
+                                <i class="fas fa-eye"></i>
+                                <span>View Details</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sketch-content">
+                        <h3>Chhatrapati Shivaji Maharaj</h3>
+                        <p>A bold and majestic pencil portrait of Chhatrapati Shivaji Maharaj, portraying his fierce gaze, warrior’s turban, and royal presence with historical pride.</p>
+                        <div class="sketch-meta">
+                            <span class="sketch-date">
+                                <i class="fas fa-calendar"></i>
+                                August 2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sketch-card">
+                    <div class="sketch-image">
+                        <img src="heart.jpeg" alt="E-commerce Interface Design" loading="lazy">
+                        <div class="sketch-overlay">
+                            <div class="sketch-info">
+                                <i class="fas fa-eye"></i>
+                                <span>View Details</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sketch-content">
+                        <h3>Human Heart</h3>
+                        <p>A finely shaded anatomical drawing of the human heart, emphasizing its complex network of vessels with lifelike realism</p>
+                        <div class="sketch-meta">
+                            <span class="sketch-date">
+                                <i class="fas fa-calendar"></i>
+                                Nov 2024
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life? Let's start a conversation</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>lokeshajmera64@gmail.com</p>
+                            <a href="mailto:lokeshajmera64@gmail.com" class="contact-link">Send Email</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 7588708964</p>
+                            <a href="tel:+91 7588708964" class="contact-link">Call Now</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>India</p>
+                            <span class="contact-link">Available Worldwide</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                        <span class="form-error" id="subjectError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loader">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Lokesh. Crafted with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Lokeshajmera" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/lokesh-ajmera-b9165335" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lokeshjain_108/" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="script10.js"></script>
+</body>
+</html>
